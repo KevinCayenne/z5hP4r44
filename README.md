@@ -10,7 +10,7 @@ Hi,
 
 完成後，請發個PR到此專案
 
-### 挑戰一: OO觀念運用 (folder: x_2)
+### 挑戰一: OO觀念運用 (folder: x_1)
 
 > 現在您的手上有 3 支手機，手機來自不同品牌，其規格屬性大同小異，但各自擁有一項特殊功能，請使用OO繼承及如下的規格，設計出這三支手機的class。
 
@@ -29,10 +29,9 @@ special_freature
 輸入一個數字自動計算Fibonacci斐波那契數列的運算結果，並取最後二位(十位為 x、個位為 y)數字進行 p x 取 y (排序組合) 計算。
 例如: ---
 
-```
+``` 
 
-
-### 挑戰二: pip 及 Django 實作  (folder: x_3)
+### 挑戰二: pip 及 Django 實作  (folder: x_2)
 
 > 請參考 https://github.com/twtrubiks/django-tutorial 的教學，將您的Django 運行起來，並進行以下步驟:
 
