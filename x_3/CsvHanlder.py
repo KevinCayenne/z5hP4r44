@@ -62,8 +62,8 @@ class CsvHanlder(object):
         
         """ 若新產出的電話號碼有重複，則需要重新產生 """
         dup_df = customer_df[customer_df.duplicated("customer_mobile")]
-        len_dul = len(dup_df)  
-        while len_dul != 0:
+         
+        while len(dup_df) != 0:
             self.create_csv()
         
         customer_df.to_csv("ilovecoffee/customers.csv", index = 0)    
